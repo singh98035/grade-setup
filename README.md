@@ -1,6 +1,6 @@
 # grade-setup
 ## steps to create categories in all course
-1. For creating categories make sure course is created first.
+1. For creating categories make sure course is created first and if your first course is moodle parent course then chnage the query with respective as your table means do not create categories in moodle name course also changes in code query. 
 2. Each course have 4 records of categories means one is parent and other is sub categories because the path of sub categories is dependent on parent category.
 3. if the parent categories exist in the database table then the code not creating the parent only create sub categories.
 4. if the course is new no parent category available in category table it creates parent and sub categories.
