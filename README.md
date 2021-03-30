@@ -9,3 +9,6 @@
 7. if any error occured in test then remove the error and run again.
 8. otherwise categories created in all course automatically.
 9. for view the categories on frontend first goto your course then click on grade setup or grade view.   
+
+**Note** :- changes in query values *check before running code* like aggregation = set the value of weightage mean of grade.
+In assignment category there is field like **drop low** if you set the droplow value = 2 then you can give only 3 assignment activity, means value is n then you can give n+1 no of assignment, if you give more assignment then its calculate on teacher end means college provide the calculation formula for calculating assignment activity grade.
